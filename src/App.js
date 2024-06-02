@@ -16,7 +16,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/home" element={<Home />} />
+          <Route path="/Mini-Games" element={<Home />} />
           <Route path="/memory-game" element={<MemoryGame />} />
           <Route path="/hang-man-game" element={<HangmanGame />} />
           <Route path="/snake-game" element={<SnakeGame />} />

@@ -103,8 +103,8 @@ const Game = () => {
         />
       </div>
       <div className="score-container">
-        <div><h2>Score: {score}</h2></div>
-        <div><h2>High Score: {highScore}</h2></div>
+        <div><h3>Score: {score}</h3></div>
+        <div><h3>High Score: {highScore}</h3></div>
       </div>
     </div>
     </div>
