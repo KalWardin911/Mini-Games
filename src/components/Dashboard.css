@@ -1,0 +1,42 @@
+.dashboard {
+    text-align: center;
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .card-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  
+  .card-wrapper:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-wrapper:hover .card-text {
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .card {
+    width: 350px;
+    height: 350px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  .card-text {
+    margin-top: 10px;
+    font-size: 1.2em;
+    transition: color 0.3s, font-weight 0.3s;
+  }
+  

@@ -1,0 +1,20 @@
+.keyboard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .key {
+    margin: 0.5rem;
+    padding: 1rem;
+    font-size: 1.2rem;
+    background: #f0f0f0;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  .key:disabled {
+    background: #ddd;
+    cursor: not-allowed;
+  }
+  
